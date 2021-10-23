@@ -1,0 +1,60 @@
+main {
+	text-align: center;
+}
+
+#phoenix {
+	width: 100px;
+}
+
+#time-ago {
+	width: 100%;
+}
+
+#time {
+	font-size: 15vw;
+	margin: 10px 0 50px;
+}
+
+a {
+	font-size: 12px;
+	color: darkblue;
+}
+
+#credits {
+	position: absolute;
+	right: 0;
+	bottom: 10px;
+	left: 0;
+	opacity: .7;
+	color: #999;
+}
+
+#credits a {
+	color: #999;
+}
+
+.dark {
+	color: #e2e2e2;
+	background: #000;
+	;
+}
+
+.dark a {
+	color: lightblue;
+}
+
+.dark #phoenix {
+	fill: #fff;
+}
+
+@media screen and (min-width:1600px) {
+	#credits {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width:575px) {
+	#credits {
+		font-size: 10px;
+	}
+}
